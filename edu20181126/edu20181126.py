@@ -16,4 +16,9 @@ class ABCToken(IconScoreBase):
     @external(readonly=True)
     def hello(self) -> str:
         Logger.debug(f'Hello, world!', TAG)
+        return "Hello"
+
+    @external(readonly=True)
+    def getname(self) -> str:
+        Logger.debug(f'Hello, world!', TAG)
         return "mabbacc12"
